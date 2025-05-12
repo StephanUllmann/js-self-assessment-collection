@@ -41,16 +41,6 @@ function divide(a, b) {
 }
 
 /**
- *
- * @param {any} input
- * @property {"boolean"| "string" | "number" | "object" | "undefined"} Typeof
- * @returns {Typeof}
- */
-function checkType(input) {
-  return 'NOT IMPLEMENTED';
-}
-
-/**
  * Checks if body height is above minimum requirements of *122cm* to go for a jolly ride.
  * @param {number} bodyHeight body height in cm
  * @returns {boolean}

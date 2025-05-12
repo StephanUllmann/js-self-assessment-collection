@@ -55,7 +55,7 @@ function getDaysUntilHalloween(day) {
  */
 function destructureCuckoo(nest) {
   // TODO: Get the Cuckoo out of the given bird's nest
-  // TODO: If there is no Cuckoo in the right place, redurn undefined
+  // TODO: If there is no Cuckoo in the right place, return undefined
   return 'NOT IMPLEMENTED';
 
   return nest?.twigs?.twigs?.twigs?.cuckoo;
