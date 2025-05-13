@@ -13,6 +13,8 @@ import {
 } from '../src/studentFunctions.js';
 
 test.describe('createVariables()', () => {
+  test.skip(createVariables() === 'NOT IMPLEMENTED', 'createVariables() is not implemented');
+
   test('returns Number', () => {
     const { myNumber } = createVariables();
     expect(myNumber).not.toBe(mN);
@@ -39,6 +41,7 @@ test.describe('createVariables()', () => {
 });
 
 test.describe('divide()', () => {
+  test.skip(divide() === 'NOT IMPLEMENTED', 'divide() is not implemented');
   const cases = [
     [42, 2, 21],
     [10, 5, 2],
@@ -54,6 +57,8 @@ test.describe('divide()', () => {
 });
 
 test.describe('canRideBigRollerCoaster()', () => {
+  test.skip(canRideBigRollerCoaster() === 'NOT IMPLEMENTED', 'canRideBigRollerCoaster() is not implemented');
+
   const cases = [
     [122, true],
     [123, true],
@@ -71,6 +76,7 @@ test.describe('canRideBigRollerCoaster()', () => {
 });
 
 test.describe('calculate()', () => {
+  test.skip(calculate() === 'NOT IMPLEMENTED', 'calculate() is not implemented');
   const cases = [
     [42, 2, '+', 44],
     [42, 2, '-', 40],
@@ -89,6 +95,7 @@ test.describe('calculate()', () => {
 });
 
 test.describe('logIceCreamOrders()', () => {
+  test.skip(logIceCreamOrders() === 'NOT IMPLEMENTED', 'logIceCreamOrders() is not implemented');
   const cases = [
     [
       [1, 'Chocolate', true, [], 'Strawberry', 999.99, null],
@@ -126,6 +133,7 @@ test.describe('logIceCreamOrders()', () => {
 });
 
 test.describe('countTypes()', () => {
+  test.skip(countTypes() === 'NOT IMPLEMENTED', 'countTypes() is not implemented');
   const cases = [
     [
       [1, 'Chocolate', true, [], 'Strawberry', 999.99, null],

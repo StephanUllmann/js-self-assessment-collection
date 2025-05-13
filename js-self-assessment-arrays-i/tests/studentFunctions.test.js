@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { calculateMedian, listNamesAndEmails, shiftAround, toShiftedAround } from '../src/studentFunctions.js';
 
 test.describe('toShiftedAround()', () => {
+  test.skip(toShiftedAround() === 'NOT IMPLEMENTED', 'toShiftedAround() is not implemented');
   const cases = [
     [
       [1, 2, 3, 4, 5],
@@ -26,6 +27,7 @@ test.describe('toShiftedAround()', () => {
 });
 
 test.describe('shiftAround()', () => {
+  test.skip(shiftAround() === 'NOT IMPLEMENTED', 'shiftAround() is not implemented');
   const cases = [
     [
       [1, 2, 3, 4, 5],
@@ -48,6 +50,7 @@ test.describe('shiftAround()', () => {
 });
 
 test.describe('calculateMedian()', () => {
+  test.skip(calculateMedian() === 'NOT IMPLEMENTED', 'calculateMedian() is not implemented');
   const cases = [
     [[1, 2, 3, 4, 5], 3],
     [[5, 3, 2, 4, 1], 3],
@@ -70,6 +73,7 @@ test.describe('calculateMedian()', () => {
 });
 
 test.describe('listNamesAndEmails()', () => {
+  test.skip(listNamesAndEmails() === 'NOT IMPLEMENTED', 'listNamesAndEmails() is not implemented');
   const cases = [
     // Test case 1: Empty array input
     [
